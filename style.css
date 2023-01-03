@@ -1,0 +1,94 @@
+body{
+    background-image: url(img/background.jpg);
+}
+
+.carouselExampleControls{
+    padding:5%;
+}
+
+#img img{
+    height: 30vh;
+}
+span{
+    font-weight: bold;
+}
+
+.select{
+    display: flex;
+    margin-top: 2%;
+}
+
+#tableData tr td{
+    border: 3px solid #fff;
+    font-size: 75%;
+
+}
+
+#tableau tr th{
+    border: 4px solid #fff;
+}
+
+.liens{
+    display: flex;
+    justify-content: center;
+}
+
+#searchInput{
+    width: 60%;
+    margin-left: 0.5%;
+    border: 4px solid #000;
+}
+
+@media screen and (max-width: 750px) {
+    #nav {
+        width: 150vw;
+    }
+    footer{
+        width: 150.23vw;
+    }
+}
+
+
+@media screen and (max-width: 500px) {
+    #nav {
+        width: 182vw;
+    }
+    footer{
+        width: 182vw;
+    }
+   
+}
+@media screen and (max-width: 450px) {
+    #nav {
+        width: 198vw;
+    }
+    footer{
+        width: 198vw;
+    }
+   
+   
+}
+
+
+@media screen and (max-width: 350px) {
+    #nav {
+        width: 222vw;
+    }
+    footer{
+        width: 222vw;
+    }
+   
+}
+
+@media screen and (max-width: 250px) {
+    #nav {
+        width: 352vw;
+    }
+    footer{
+        width: 352vw;
+    }
+    
+}
+
+
+
